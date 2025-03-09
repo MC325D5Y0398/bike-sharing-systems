@@ -5,7 +5,7 @@ import seaborn as sns
 import os
 
 # Membaca data yang telah dibersihkan
-file_path = os.path.join(os.path.dirname(__file__, "day_data.csv", "hour_data.csv")
+file_path = os.path.join(os.path.dirname(__file__), "day_data.csv", "hour_data.csv")
 day_data = pd.read_csv("day_data.csv")
 hour_data = pd.read_csv("hour_data.csv")
 
