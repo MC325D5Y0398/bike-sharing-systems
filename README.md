@@ -2,6 +2,6 @@
 
 ## **Setup Environment - Anaconda**
 
-## **Setup Environment - PowerShell/Terminal
+## **Setup Environment - PowerShell/Terminal**
 
 ## **Run Streamlit App**
