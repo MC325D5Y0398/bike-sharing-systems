@@ -6,8 +6,8 @@ import os
 
 # Membaca data yang telah dibersihkan
 file_path = os.path.join(os.path.dirname(__file__), "day_data.csv", "hour_data.csv")
-day_data = pd.read_csv("day_data.csv")
-hour_data = pd.read_csv("hour_data.csv")
+day_data = pd.read_csv("dashboard/day_data.csv")
+hour_data = pd.read_csv("dashboard/hour_data.csv")
 
 # Mengubah tipe data "dteday" menjadi datetime
 day_data["dteday"] = pd.to_datetime(day_data["dteday"])
