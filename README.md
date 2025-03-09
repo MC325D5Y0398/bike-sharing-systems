@@ -13,8 +13,8 @@ pip install -r requirements.txt
 ```
 mkdir dashboard_project
 cd dashboard_project
-python -m venv dashboard_env
-dashboard_env\Scripts\activate
+pipenv install
+pipenv shell
 pip install -r requirements.txt
 ```
 
